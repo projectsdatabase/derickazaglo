@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav span{
+    font-size: 2em;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 1px 1px 5px black;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+li{
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    padding: 10px 30px;
+    margin: 0 25px;
+    border-radius: 20px;
+}
+
+li a:hover{
+    background-color: black;
+    color: white;
+}

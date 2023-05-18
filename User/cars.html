@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+    <link rel="stylesheet" href="../Asset/nav.css">
+    <link rel="stylesheet" href="../Asset/ucars.css">
+</head>
+<body>
+    <nav>
+        <span>CarRental</span>
+        <ul>
+            <li>
+                <a href="homepage.html">Home</a>
+                <a href="cars.html">Cars</a>
+                <a href="">About Us</a>
+                <a href="/index.html">LogOut</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="main" id="main">
+
+        <h2>Cars</h2>
+        <section class="row">
+            <div class="car">
+                <img src="../Asset/ucar3.png" alt="">
+                <div class="caption">
+                    <p class="title">
+                        Ash Audi
+                    </p>
+                    <div class="price">
+                       <p>$20</p>
+                       <span>Per Day</span>
+                    </div>
+                    <button class="rent" onclick="book()">Rent Now</button>
+                </div>
+            </div>
+            <div class="car">
+                    <img src="../Asset/ucar4.png" alt="">
+                    <div class="caption">
+                        <p class="title">
+                            Yellow Audi
+                        </p>
+                        <div class="price">
+                           <p>$15</p>
+                           <span>Per Day</span>
+                        </div>
+                        <button class="rent" onclick="book()">Rent Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="row">
+            <div class="car">
+                <img src="../Asset/ucar1.png" alt="">
+                <div class="caption">
+                    <p class="title">
+                        Blue Benz
+                    </p>
+                    <div class="price">
+                       <p>$20</p>
+                       <span>Per Day</span>
+                    </div>
+                    <button class="rent" onclick="book()">Rent Now</button>
+                </div>
+            </div>
+            <div class="car">
+                    <img src="../Asset/ucar2.png" alt="">
+                    <div class="caption">
+                        <p class="title">
+                            Red Audi
+                        </p>
+                        <div class="price">
+                           <p>$15</p>
+                           <span>Per Day</span>
+                        </div>
+                        <button class="rent" onclick="book()">Rent Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </section>
+    
+    <form id="popup">
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Adress">
+        <input type="text" placeholder="Phone Number">
+        <input type="text" placeholder="Pickup Location">
+        <input type="email" placeholder="Email">
+        <input type="submit" class="submit">
+    </form>
+
+    <script>
+        function book(){
+        let main = document.getElementById('main');
+        main.classList.add("book");
+        popup.classList.add("active")
+    }
+    </script>
+</body>
+</html>

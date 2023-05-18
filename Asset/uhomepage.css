@@ -1,0 +1,39 @@
+body{
+    /* background-image: url(../Asset/car2.jpeg); */
+    
+    background-color: rgb(34, 34, 34);
+}
+
+
+nav{
+    position: relative;
+}
+.bg-image{
+    position: fixed;
+    opacity: 0.2;
+}
+
+.main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    opacity: 1;
+}
+
+.main p{
+    font-size: 5em;
+    color: white;
+}
+
+.main a{
+    text-decoration: none;
+    font-size: 2em;
+    color: rgb(34, 34, 34);
+    background-color: rgb(255, 203, 32);
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
